@@ -3,15 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Professional Portfolio</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script defer src="script.js"></script>
 </head>
 <body>
     <header>
         <div class="container">
-            <h1>My Portfolio</h1>
+            <h1>John Doe</h1>
+            <p class="subtitle">Web Developer | UI/UX Designer | Freelancer</p>
             <nav>
                 <ul>
                     <li><a href="#home">Home</a></li>
@@ -25,8 +27,8 @@
     
     <section id="home" class="hero">
         <div class="container">
-            <h2>Welcome to My Portfolio</h2>
-            <p>I am a passionate Web Developer crafting modern and responsive websites.</p>
+            <h2>Creating Digital Experiences</h2>
+            <p>I specialize in building modern, scalable, and interactive web applications.</p>
             <a href="#projects" class="btn">View My Work</a>
         </div>
     </section>
@@ -34,30 +36,48 @@
     <section id="about" class="about">
         <div class="container">
             <h2>About Me</h2>
-            <p>I'm a skilled developer with expertise in front-end and back-end technologies. I create dynamic, user-friendly, and visually appealing websites.</p>
+            <p>With years of experience in front-end and back-end development, I am passionate about creating seamless user experiences. I work with HTML, CSS, JavaScript, React, and Node.js to deliver high-quality solutions.</p>
+            <div class="skills">
+                <h3>Skills & Expertise</h3>
+                <ul>
+                    <li>Front-End Development (HTML, CSS, JavaScript, React, Vue.js)</li>
+                    <li>Back-End Development (Node.js, Express, MongoDB, SQL)</li>
+                    <li>UI/UX Design & Prototyping (Figma, Adobe XD)</li>
+                    <li>Performance Optimization & SEO</li>
+                    <li>Performance Optimization & SEO</li>
+                </ul>
+            </div>
         </div>
     </section>
     
     <section id="projects" class="projects">
         <div class="container">
-            <h2>Projects</h2>
-            <div class="project-card">
-                <img src="project1.jpg" alt="Project 1">
-                <h3>Project 1</h3>
-                <p>A brief description of Project 1.</p>
-            </div>
-            <div class="project-card">
-                <img src="project2.jpg" alt="Project 2">
-                <h3>Project 2</h3>
-                <p>A brief description of Project 2.</p>
+            <h2>My Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <img src="project1.jpg" alt="Project 1">
+                    <h3>Portfolio Website</h3>
+                    <p>A fully responsive portfolio showcasing my work and skills.</p>
+                </div>
+                <div class="project-card">
+                    <img src="project2.jpg" alt="Project 2">
+                    <h3>E-Commerce Platform</h3>
+                    <p>A modern e-commerce platform with a secure checkout system.</p>
+                </div>
+                <div class="project-card">
+                    <img src="project3.jpg" alt="Project 3">
+                    <h3>Real-Time Chat Application</h3>
+                    <p>A web-based chat app built using Node.js and WebSockets.</p>
+                </div>
             </div>
         </div>
     </section>
     
     <section id="contact" class="contact">
         <div class="container">
-            <h2>Contact</h2>
-            <p>Email: example@example.com</p>
+            <h2>Contact Me</h2>
+            <p>Let's work together to build something amazing.</p>
+            <p>Email: johndoe@example.com</p>
             <p>Phone: +123 456 7890</p>
             <div class="social-icons">
                 <a href="#"><i class="fab fa-linkedin"></i></a>
@@ -69,10 +89,8 @@
     
     <footer>
         <div class="container">
-            <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+            <p>&copy; 2025 John Doe. All rights reserved.</p>
         </div>
     </footer>
-    
-    <script src="script.js"></script>
 </body>
 </html>
